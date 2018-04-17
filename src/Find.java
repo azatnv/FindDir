@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+import static java.io.File.separator;
+
 public class Find {
 
     static List<File> findWithoutDir(String file) throws IOException {
@@ -55,15 +57,15 @@ public class Find {
         return result;
     }
 
-    static List<File> convert(File file) {
+    private static List<File> convert(File file) {
         List<File> result = new ArrayList<>();
         StringBuilder path = new StringBuilder(file.getAbsolutePath());
-        String[] parts = path.toString().split("\\\\");
+        String[] parts = path.toString().split(separator + separator);
         for (int i = 1; i < parts.length; i++) {
             path = new StringBuilder(parts[0]);
             for (int g = 1; g <= i; g++)  {
                 if (Objects.equals(parts[g], ".")) continue;
-                path.append("\\\\").append(parts[g]);
+                path.append(separator).append(separator).append(parts[g]);
             }
             result.add(new File(String.valueOf(path)));
         }

@@ -2,13 +2,14 @@ import org.kohsuke.args4j.*;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
 
 public class FindLauncher {
 
     @Option(name = "-r", metaVar = "Key", usage = "The need to search in all subdirectories")
-    private String searchInside;
+    private boolean searchInside;
 
     @Option(name = "-d", metaVar = "Directory", usage = "Search in this directory")
     private String dirFind;
@@ -34,22 +35,17 @@ public class FindLauncher {
         }
 
         if (fileName.matches(".+\\.txt")) {
-            List<File> list = new ArrayList<>();
-
+            PrintStream out = new PrintStream(System.out);
             if (dirFind == null) {
-                if (searchInside != null) list = Find.findWithoutDirR(fileName);
-                else list = Find.findWithoutDir(fileName);
+                if (searchInside) {
+                    out.println(Find.findWithoutDirR(fileName));
+                }
+                else out.print(Find.findWithoutDir(fileName));
             }
-
-            if (dirFind != null && !(new File(dirFind)).isHidden()) {
+            if (dirFind != null) {
                 File directory = new File(dirFind);
-                if (searchInside != null)  list = Find.findInside(directory, fileName);
-                else list = Find.find(directory, fileName);
-            }
-
-            if (list.isEmpty()) System.out.println("File not found =(");
-            else{
-                System.out.println(list);
+                if (searchInside)  out.print(Find.findInside(directory, fileName));
+                else out.print(Find.find(directory, fileName));
             }
         } else {
             System.err.println("Incorrect argument format");
