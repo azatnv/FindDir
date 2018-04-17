@@ -8,14 +8,14 @@ import static java.io.File.separator;
 
 public class Find {
 
-    static List<File> findWithoutDir(String file) throws IOException {
-        List<File> result = new ArrayList<>();
+    static String findWithoutDir(String file) throws IOException {
+        String result = "File not found";
         File f = new File(file);
         if (f.exists()) return convert(f);
         return result;
     }
 
-    static List<File> findWithoutDirR(String file) throws IOException {
+    static String findWithoutDirR(String file) throws IOException {
         File f = new File(file);
         if (f.exists()) return convert(f);
         else {
@@ -24,8 +24,8 @@ public class Find {
         }
     }
 
-    static List<File> find(File dir, String file) throws IOException {
-        List<File> result = new ArrayList<>();
+    static String find(File dir, String file) throws IOException {
+        String result = "File not found";
         String[] dirNameFiles = dir.list();
         File[] dirFiles = dir.listFiles();
         if (dirFiles != null && dirNameFiles != null) {
@@ -38,8 +38,8 @@ public class Find {
         return result;
     }
 
-    static List<File> findInside(File dir, String file) throws IOException {
-        List<File> result = new ArrayList<>();
+    static String findInside(File dir, String file) throws IOException {
+        String result = "File not found";
         String[] dirNameFiles = dir.list();
         File[] dirFiles = dir.listFiles();
         if (dirFiles != null && dirNameFiles != null) {
@@ -57,19 +57,15 @@ public class Find {
         return result;
     }
 
-    private static List<File> convert(File file) {
-        List<File> result = new ArrayList<>();
+    private static String convert(File file) {
         StringBuilder path = new StringBuilder(file.getAbsolutePath());
         String[] parts = path.toString().split(separator + separator);
+        path = new StringBuilder(parts[0]);
         for (int i = 1; i < parts.length; i++) {
-            path = new StringBuilder(parts[0]);
-            for (int g = 1; g <= i; g++)  {
-                if (Objects.equals(parts[g], ".")) continue;
-                path.append(separator).append(separator).append(parts[g]);
-            }
-            result.add(new File(String.valueOf(path)));
+            if (Objects.equals(parts[i], ".")) continue;
+            path.append(separator).append(separator).append(parts[i]);
         }
-        return result;
+        return path.toString();
     }
 
 }
