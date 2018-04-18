@@ -1,7 +1,5 @@
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
 import static java.io.File.separator;
@@ -48,9 +46,8 @@ public class Find {
                     return convert(dirFiles[i]);
                 }
                 if (dirFiles[i].isDirectory()) {
-                    if (dirFiles[i].isHidden()) continue;
                     result = findInside(dirFiles[i], file);
-                    if (!result.isEmpty()) return result;
+                    if (!Objects.equals(result, "File not found")) return result;
                 }
             }
         }
@@ -63,7 +60,7 @@ public class Find {
         path = new StringBuilder(parts[0]);
         for (int i = 1; i < parts.length; i++) {
             if (Objects.equals(parts[i], ".")) continue;
-            path.append(separator).append(separator).append(parts[i]);
+            path.append(separator).append(parts[i]);
         }
         return path.toString();
     }
