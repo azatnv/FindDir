@@ -1,10 +1,9 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="FindDir:jar">
-    <output-path>$PROJECT_DIR$/../FindDir/out/artifacts/FindDir_jar</output-path>
+    <output-path>$PROJECT_DIR$/out/artifacts/FindDir_jar</output-path>
     <root id="archive" name="FindDir.jar">
       <element id="module-output" name="FindDir" />
       <element id="extracted-dir" path="$USER_HOME$/Downloads/args4j-2.33.jar" path-in-jar="/" />
-      <element id="library" level="project" name="args4j-2.33" />
     </root>
   </artifact>
 </component>
