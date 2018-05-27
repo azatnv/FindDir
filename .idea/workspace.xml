@@ -7,12 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57c62f66-2ce5-4b07-ab43-2bd77776d092" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FindDir/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../FindDir/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FindDir/src/Find.java" afterPath="$PROJECT_DIR$/../FindDir/src/Find.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FindDir/src/FindLauncher.java" afterPath="$PROJECT_DIR$/../FindDir/src/FindLauncher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FindDir/tests/FindTest.java" afterPath="$PROJECT_DIR$/../FindDir/tests/FindTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Find.java" afterPath="$PROJECT_DIR$/src/Find.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/FindTest.java" afterPath="$PROJECT_DIR$/tests/FindTest.java" />
     </list>
-    <ignored path="$PROJECT_DIR$/../FindDir/out/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Find.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FindDir/src/Find.java">
+        <entry file="file://$PROJECT_DIR$/src/Find.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+            <state relative-caret-position="-357">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,10 +34,10 @@
         </entry>
       </file>
       <file leaf-file-name="FindTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../FindDir/tests/FindTest.java">
+        <entry file="file://$PROJECT_DIR$/tests/FindTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
-              <caret line="89" column="62" lean-forward="false" selection-start-line="89" selection-start-column="62" selection-end-line="89" selection-end-column="62" />
+            <state relative-caret-position="-977">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,10 +46,10 @@
         </entry>
       </file>
       <file leaf-file-name="FindLauncher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FindDir/src/FindLauncher.java">
+        <entry file="file://$PROJECT_DIR$/src/FindLauncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -66,7 +65,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../FindDir" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -76,10 +75,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../FindDir/tests/FindLauncherTest.java" />
-        <option value="$PROJECT_DIR$/../FindDir/src/FindLauncher.java" />
-        <option value="$PROJECT_DIR$/../FindDir/src/Find.java" />
-        <option value="$PROJECT_DIR$/../FindDir/tests/FindTest.java" />
+        <option value="$PROJECT_DIR$/tests/FindLauncherTest.java" />
+        <option value="$PROJECT_DIR$/src/FindLauncher.java" />
+        <option value="$PROJECT_DIR$/src/Find.java" />
+        <option value="$PROJECT_DIR$/tests/FindTest.java" />
       </list>
     </option>
   </component>
@@ -106,6 +105,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,12 +121,6 @@
             <path>
               <item name="FindDir" type="b2602c69:ProjectViewProjectNode" />
               <item name="FindDir" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="file2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FindDir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FindDir" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -138,13 +132,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/args4j-2.33.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -175,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindTest.findWithoutDir">
+  <component name="RunManager" selected="JUnit.FindTest">
     <configuration name="FindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="FindDir" />
@@ -300,11 +293,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FindTest.findWithoutDir" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FindTest.find" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FindTest.findWithoutDirR" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FindTest.findInside" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FindTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FindTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FindTest.findWithoutDir" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FindTest.find" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FindTest.findWithoutDirR" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FindTest.findInside" />
       </list>
     </recent_temporary>
   </component>
@@ -340,36 +333,43 @@
       <option name="project" value="LOCAL" />
       <updated>1524066755207</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="path">
+      <created>1525295088988</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525295088988</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindTest_find - 2018.05.03 at 02h 03m 57s.xml">
-      <configuration name="FindTest.find" configurationId="JUnit" />
+    <history-entry file="FindTest - 2018.05.27 at 19h 47m 31s.xml">
+      <configuration name="FindTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTest_findInside - 2018.05.03 at 01h 59m 08s.xml">
-      <configuration name="FindTest.findInside" configurationId="JUnit" />
+    <history-entry file="FindTest - 2018.05.27 at 19h 52m 12s.xml">
+      <configuration name="FindTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTest_findInside - 2018.05.03 at 02h 01m 00s.xml">
-      <configuration name="FindTest.findInside" configurationId="JUnit" />
+    <history-entry file="FindTest - 2018.05.27 at 19h 52m 17s.xml">
+      <configuration name="FindTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTest_findInside - 2018.05.03 at 02h 02m 04s.xml">
-      <configuration name="FindTest.findInside" configurationId="JUnit" />
+    <history-entry file="FindTest - 2018.05.27 at 19h 54m 23s.xml">
+      <configuration name="FindTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTest_findInside - 2018.05.03 at 02h 02m 51s.xml">
-      <configuration name="FindTest.findInside" configurationId="JUnit" />
+    <history-entry file="FindTest - 2018.05.27 at 19h 56m 02s.xml">
+      <configuration name="FindTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTest_findInside - 2018.05.03 at 02h 03m 49s.xml">
-      <configuration name="FindTest.findInside" configurationId="JUnit" />
+    <history-entry file="FindTest - 2018.05.27 at 19h 58m 31s.xml">
+      <configuration name="FindTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTest_findWithoutDir - 2018.05.03 at 01h 53m 08s.xml">
-      <configuration name="FindTest.findWithoutDir" configurationId="JUnit" />
+    <history-entry file="FindTest - 2018.05.27 at 19h 59m 28s.xml">
+      <configuration name="FindTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTest_findWithoutDir - 2018.05.03 at 02h 04m 04s.xml">
-      <configuration name="FindTest.findWithoutDir" configurationId="JUnit" />
+    <history-entry file="FindTest - 2018.05.27 at 19h 59m 55s.xml">
+      <configuration name="FindTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindTest_findWithoutDirR - 2018.05.03 at 01h 53m 00s.xml">
-      <configuration name="FindTest.findWithoutDirR" configurationId="JUnit" />
+    <history-entry file="FindTest - 2018.05.27 at 20h 01m 43s.xml">
+      <configuration name="FindTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FindTest_findWithoutDirR - 2018.05.03 at 02h 03m 52s.xml">
       <configuration name="FindTest.findWithoutDirR" configurationId="JUnit" />
@@ -387,8 +387,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2791612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2791612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -397,8 +397,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -414,7 +414,8 @@
     <MESSAGE value="PrintStream" />
     <MESSAGE value="PrintStream, String - result" />
     <MESSAGE value="Result" />
-    <option name="LAST_COMMIT_MESSAGE" value="Result" />
+    <MESSAGE value="path" />
+    <option name="LAST_COMMIT_MESSAGE" value="path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -423,7 +424,63 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../FindDir/src/FindLauncher.java">
+    <entry file="file://$PROJECT_DIR$/src/Find.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/FindTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="70" column="26" lean-forward="true" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Find.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/FindTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="89" column="62" lean-forward="false" selection-start-line="89" selection-start-column="62" selection-end-line="89" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -431,7 +488,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/src/Find.java">
+    <entry file="file://$PROJECT_DIR$/src/Find.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -441,7 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/src/FindLauncher.java">
+    <entry file="file://$PROJECT_DIR$/src/FindLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
@@ -449,7 +506,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/tests/FindTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/FindTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -459,7 +516,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/src/Find.java">
+    <entry file="file://$PROJECT_DIR$/src/Find.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
@@ -469,7 +526,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/tests/FindTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/FindTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -479,7 +536,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/src/FindLauncher.java">
+    <entry file="file://$PROJECT_DIR$/src/FindLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
@@ -487,7 +544,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -514,71 +571,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/files/Text1.txt">
+    <entry file="file://$PROJECT_DIR$/files/Text1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/Text.txt">
+    <entry file="file://$PROJECT_DIR$/Text.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/files/file2/file4/file5/Text5.txt">
+    <entry file="file://$PROJECT_DIR$/files/file2/file4/file5/Text5.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/files/file2/file4/Text4.txt">
+    <entry file="file://$PROJECT_DIR$/files/file2/file4/Text4.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/FindDir.iml">
+    <entry file="file://$PROJECT_DIR$/FindDir.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/src/FindLauncher.java">
+    <entry file="file://$PROJECT_DIR$/files/file2/Text3.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/src/Find.java">
+    <entry file="file://$PROJECT_DIR$/src/Find.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        <state relative-caret-position="-357">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/files/file2/Text3.txt">
+    <entry file="file://$PROJECT_DIR$/tests/FindTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FindDir/tests/FindTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="89" column="62" lean-forward="false" selection-start-line="89" selection-start-column="62" selection-end-line="89" selection-end-column="62" />
+        <state relative-caret-position="-977">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

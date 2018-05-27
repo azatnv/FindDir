@@ -12,13 +12,17 @@ class FindTest {
 
     private List<File> empty = new ArrayList<>();
     private List<File> result = new ArrayList<>();
-    private File file = new File("Text.txt");
+    private File file = new File("."+separator+"Text.txt");
     private File file1 = new File("files"+separator+"Text1.txt");
+    private File file1_2 = new File("."+separator+"files"+separator+"Text1.txt");
     private File file2 = new File("files"+separator+"file2"+separator+"Text2.txt");
     private File file3_1 = new File("files"+separator+"file2"+separator+"Text3.txt");
     private File file3_2 = new File("files"+separator+"file3"+separator+"Text3.txt");
+    private File file3_3 = new File("."+separator+"files"+separator+"file2"+separator+"Text3.txt");
+    private File file3_4 = new File("."+separator+"files"+separator+"file3"+separator+"Text3.txt");
     private File file4 = new File("files"+separator+"file2"+separator+"file4"+separator+"Text4.txt");
     private File file5 = new File("files"+separator+"file2"+separator+"file4"+separator+"file5"+separator+"Text5.txt");
+    private File file5_2 = new File("."+separator+"files"+separator+"file2"+separator+"file4"+separator+"file5"+separator+"Text5.txt");
     private File dir = new File("files");
     private File dir1 = new File("files"+separator+"file1");
     private File dir2 = new File("files"+separator+"file2");
@@ -68,18 +72,18 @@ class FindTest {
         result.add(file);
         assertEquals(Find.findWithoutDirR("Text.txt"), result);
         result.remove(file);
-        result.add(file5);
+        result.add(file5_2);
         assertEquals(Find.findWithoutDirR("Text5.txt"), result);
-        result.remove(file5);
-        result.add(file1);
+        result.remove(file5_2);
+        result.add(file1_2);
         assertEquals(Find.findWithoutDirR("Text1.txt"), result);
-        result.remove(file1);
+        result.remove(file1_2);
         assertEquals(Find.findWithoutDirR("Text123.txt"), empty);
-        result.add(file3_1);
-        result.add(file3_2);
+        result.add(file3_3);
+        result.add(file3_4);
         assertEquals(Find.findWithoutDirR("Text3.txt"), result);
-        result.add(file3_1);
-        result.add(file3_2);
+        result.add(file3_3);
+        result.add(file3_4);
     }
 
     @Test

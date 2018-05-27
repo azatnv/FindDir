@@ -10,12 +10,12 @@ public class Find {
 
     static List<File> findWithoutDir(String file) throws IOException {
         File parent = new File(".");
-        return convert(find(parent, file));
+        return find(parent, file);
     }
 
     static List<File> findWithoutDirR(String file) throws IOException {
         File parent = new File(".");
-        return convert(findInside(parent, file));
+        return findInside(parent, file);
     }
 
     static List<File> find(File dir, String file) throws IOException {
