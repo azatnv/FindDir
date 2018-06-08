@@ -38,19 +38,18 @@ public class FindLauncher {
             PrintStream out = new PrintStream(System.out);
             if (dirFind == null) {
                 if (searchInside) {
-                    out.println(Find.convert(Find.findWithoutDirR(fileName)));
+                    out.println(Find.findWithoutDirR(fileName));
                 }
-                else out.print(Find.convert(Find.findWithoutDir(fileName)));
+                else out.print(Find.findWithoutDir(fileName));
             }
             if (dirFind != null) {
                 File directory = new File(dirFind);
-                if (searchInside)  out.print(Find.convert(Find.findInside(directory, fileName)));
-                else out.print(Find.convert(Find.find(directory, fileName)));
+                if (searchInside)  out.print(Find.findInside(directory, fileName));
+                else out.print(Find.find(directory, fileName));
             }
         } else {
             System.err.println("Incorrect argument format");
             parser.printUsage(System.err);
         }
     }
-
 }
