@@ -16,10 +16,8 @@ class FindTest {
     private File file1 = new File("files"+separator+"Text1.txt");
     private File file1_2 = new File("."+separator+"files"+separator+"Text1.txt");
     private File file2 = new File("files"+separator+"file2"+separator+"Text2.txt");
-    private File file3_1 = new File("files"+separator+"file2"+separator+"Text3.txt");
-    private File file3_2 = new File("files"+separator+"file3"+separator+"Text3.txt");
-    private File file3_3 = new File("."+separator+"files"+separator+"file2"+separator+"Text3.txt");
-    private File file3_4 = new File("."+separator+"files"+separator+"file3"+separator+"Text3.txt");
+    private File file3_1 = new File("files"+separator+"file3"+separator+"Text3.txt");
+    private File file3_2 = new File("."+separator+"files"+separator+"file3"+separator+"Text3.txt");
     private File file4 = new File("files"+separator+"file2"+separator+"file4"+separator+"Text4.txt");
     private File file5 = new File("files"+separator+"file2"+separator+"file4"+separator+"file5"+separator+"Text5.txt");
     private File file5_2 = new File("."+separator+"files"+separator+"file2"+separator+"file4"+separator+"file5"+separator+"Text5.txt");
@@ -42,10 +40,9 @@ class FindTest {
         assertEquals(Find.findInside(dir4, "Text4.txt"), result);
         result.remove(file4);
         result.add(file3_1);
-        result.add(file3_2);
         assertEquals(Find.findInside(dir, "Text3.txt"), result);
+
         result.remove(file3_1);
-        result.remove(file3_2);
     }
 
     @Test
@@ -79,11 +76,9 @@ class FindTest {
         assertEquals(Find.findWithoutDirR("Text1.txt"), result);
         result.remove(file1_2);
         assertEquals(Find.findWithoutDirR("Text123.txt"), empty);
-        result.add(file3_3);
-        result.add(file3_4);
+        result.add(file3_2);
         assertEquals(Find.findWithoutDirR("Text3.txt"), result);
-        result.add(file3_3);
-        result.add(file3_4);
+        result.add(file3_2);
     }
 
     @Test
