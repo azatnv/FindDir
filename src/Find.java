@@ -1,25 +1,23 @@
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 import static java.io.File.separator;
 
 public class Find {
 
-    static List<File> findWithoutDir(String file) throws IOException {
+    static Set<File> findWithoutDir(String file) throws IOException {
         File parent = new File(".");
         return find(parent, file);
     }
 
-    static List<File> findWithoutDirR(String file) throws IOException {
+    static Set<File> findWithoutDirR(String file) throws IOException {
         File parent = new File(".");
         return findInside(parent, file);
     }
 
-    static List<File> find(File dir, String file) throws IOException {
-        List<File> result = new ArrayList<>();
+    static Set<File> find(File dir, String file) throws IOException {
+        Set<File> result = new HashSet<>();
         String[] dirNameFiles = dir.list();
         File[] dirFiles = dir.listFiles();
         if (dirFiles != null && dirNameFiles != null) {
@@ -32,8 +30,8 @@ public class Find {
         return result;
     }
 
-    static List<File> findInside(File dir, String file) throws IOException {
-        List<File> result = new ArrayList<>();
+    static Set<File> findInside(File dir, String file) throws IOException {
+        Set<File> result = new HashSet<>();
         String[] dirNameFiles = dir.list();
         File[] dirFiles = dir.listFiles();
         if (dirFiles != null && dirNameFiles != null) {
@@ -49,8 +47,8 @@ public class Find {
         return result;
     }
 
-    static List<File> convert(List<File> list) {
-        List<File> result = new ArrayList<>();
+    static Set<File> convert(Set<File> list) {
+        Set<File> result = new HashSet<>();
         for (File element: list) {
             StringBuilder path = new StringBuilder(element.getPath());
             String[] parts = path.toString().split(separator + separator);

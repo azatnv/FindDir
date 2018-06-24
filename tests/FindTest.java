@@ -2,16 +2,16 @@ import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 import static java.io.File.separator;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FindTest {
 
-    private List<File> empty = new ArrayList<>();
-    private List<File> result = new ArrayList<>();
+    private Set<File> empty = new HashSet<>();
+    private Set<File> result = new HashSet<>();
     private File file = new File("."+separator+"Text.txt");
     private File file1 = new File("files"+separator+"Text1.txt");
     private File file1_2 = new File("."+separator+"files"+separator+"Text1.txt");
@@ -41,8 +41,8 @@ class FindTest {
         result.add(file4);
         assertEquals(Find.findInside(dir4, "Text4.txt"), result);
         result.remove(file4);
-        result.add(file3_1);
         result.add(file3_2);
+        result.add(file3_1);
         assertEquals(Find.findInside(dir, "Text3.txt"), result);
         result.remove(file3_1);
         result.remove(file3_2);
